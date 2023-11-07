@@ -170,6 +170,23 @@
             "date": "2023",
             "organism": "OpenClassRooms (bac+2)"
         }
+    ],
+    "interests": [
+        {
+            "id":1,
+            "name": "Accro aux Films & Séries"
+        },
+        {
+            "id":2,
+            "name": "Jouer aux JVs un peu"
+        },
+        {
+            "id": 3,
+            "name": "Monter des Legos de temps en temps "
+        }, 
+        {
+            "id": 4,
+            "name": "Visiter des lieux incroyables"
+        }  
     ]
-
 }

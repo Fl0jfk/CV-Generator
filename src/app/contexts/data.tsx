@@ -19,6 +19,11 @@ type Skill = {
   level: number;
 };
 
+export type Interest = {
+  id: number;
+  name: string;
+}
+
 type SoftSkills = {
   id: number;
   name: string;
@@ -52,6 +57,7 @@ type Languages = {
 type Data = {
   profile: Profile;
   skills: Skill[];
+  interests: Interest[];
   softskills: SoftSkills[];
   description: Description;
   experiences: Experiences[];
@@ -72,6 +78,7 @@ const initialData: Data = {
     phoneNumber: ""
   },
   skills: [],
+  interests: [],
   softskills: [],
   description: "",
   experiences: [],

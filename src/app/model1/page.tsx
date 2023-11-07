@@ -8,11 +8,12 @@ import Language from "./components/Languages";
 import Description from "./components/Description";
 import Experiences from "./components/Experiences";
 import Education from "./components/Education";
+import Interests from "./components/Interest";
 
 function Model1(){
     return (
         <DataProvider>
-            <div className="h-screen w-screen flex">
+            <div className="h-screen w-screen flex w-[1000px] mx-auto">
                 <section id="left" className="w-[45%] h-full p-8 bg-[#d5d6f8] text-[#463a80] flex flex-col justify-stretch">
                     <Profile/>
                     <Skills/>
@@ -23,6 +24,7 @@ function Model1(){
                     <Description/>
                     <Experiences/>
                     <Education/>
+                    <Interests/>
                 </section>
             </div>
         </DataProvider>

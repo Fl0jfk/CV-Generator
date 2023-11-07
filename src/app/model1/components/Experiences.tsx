@@ -16,7 +16,7 @@ function Experiences (){
                 <h1 className="text-2xl">Expériences professionnelles</h1>
             </div>
             <div className="flex flex-col gap-4">
-            {data.experiences.toReversed().map((experience : Experiences) =>(
+            {data.experiences.slice().reverse().map((experience : Experiences) =>(
                     <div key={experience.id} className="flex flex-col gap-[1px]">
                         <div className="flex gap-1 font-bold">
                             <p>{`${experience.name},`}</p>
