@@ -1,3 +1,4 @@
+import { type } from "os";
 import React, { createContext, useCallback, useContext, useEffect, useState, PropsWithChildren } from "react";
 
 type Profile = {
@@ -19,31 +20,20 @@ type Skill = {
   level: number;
 };
 
-type Project = {
-  id: number;
-  key: number;
-  name: string;
-  category: string;
-  img: string;
-  shortDescription: string;
-  description: string;
-  techs: string;
-  github: string;
-  website: string;
-  background: string;
-  mockupSrc: string;
-  mockupAlt: string;
-};
-
-type Mockup = {
+type SoftSkills = {
   id: number;
   name: string;
-  img: string;
 };
 
-type Experience = {
-
+type Experiences = {
+  id: number;
+  name: string;
+  enterprise:string;
+  date: string;
+  skills: Array<{id:number, text:string}>
 };
+
+type Description = string;
 
 type Testimonial = {
   id: number;
@@ -55,20 +45,20 @@ type Testimonial = {
   linkedin: string;
 };
 
-type Other = {
+type Languages = {
   id: number;
   name: string;
-  src: string;
+  level: number;
 }
 
 type Data = {
   profile: Profile;
   skills: Skill[];
-  projects: Project[];
-  mockups: Mockup[];
-  experiences: Experience[];
+  softskills: SoftSkills[];
+  description: Description;
+  experiences: Experiences[];
   testimonials: Testimonial[];
-  others: Other[];
+  languages: Languages[];
   error: Error | null;
 };
 
@@ -84,11 +74,11 @@ const initialData: Data = {
     phoneNumber: ""
   },
   skills: [],
-  projects: [],
-  mockups: [],
+  softskills: [],
+  description: "",
   experiences: [],
   testimonials: [],
-  others: [],
+  languages: [],
   error: null
 };
 

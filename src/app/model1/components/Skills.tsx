@@ -5,7 +5,7 @@ import { useData } from "@/app/contexts/data";
 function Skills (){
     const data = useData();
     return (
-        <section className="flex flex-col w-full h-[25%] gap-4">
+        <section className="flex flex-col w-full h-[23%] gap-2">
             <div className="flex items-center gap-2">
                 <svg fill="#463a80" width="40px" height="40px" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                     <path d="M43.84,46.76a5.35,5.35,0,1,1,5.46-5.34A5.41,5.41,0,0,1,43.84,46.76Z" fillRule="evenodd"/>
@@ -16,7 +16,7 @@ function Skills (){
             <div className="flex flex-col justify-center gap-2">
                 {data.skills.map((skill : {id:number, name: string, level:number}) =>(
                      <div key={skill.id} className="flex gap-4 justify-between items-center">
-                        <p>{skill.name}</p>
+                        <p className="font-light">{skill.name}</p>
                         <div className="h-[5px] bg-[#bcbbe1] rounded-lg w-[50%]">
                             {skill.level&&<span className="h-full bg-[#463a80] rounded-lg block" style={{width:`${skill.level}%`}}></span>}
                         </div>

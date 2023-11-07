@@ -1,6 +1,9 @@
+import { useData } from "@/app/contexts/data"
+
 function SoftSkills(){
+    const data = useData();
     return (
-        <section className="w-full flex flex-col h-[25%]">
+        <section className="w-full flex flex-col h-[20%] gap-2">
             <div className="flex items-center gap-2">
                 <svg fill="#463a80" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xmlSpace="preserve">
                     <g>
@@ -9,11 +12,15 @@ function SoftSkills(){
                 </svg>
                 <h2 className="text-2xl font-bold">Soft Skills</h2>       
             </div>
-            <div className="flex flex-col">
-
+            <div className="flex flex-wrap gap-2">
+                {data.softskills.map((softskill : {id:number, name: string}) =>(
+                     <div key={softskill.id} className="border text-center rounded-lg border-[#463a80] p-1 shadow-lg">
+                        <p className="font-light">{softskill.name}</p>
+                     </div>
+                ))}
             </div>
         </section>
     )
 }
 
-export default SoftSkills
+export default SoftSkills;
