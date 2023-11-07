@@ -87,8 +87,9 @@
         {
             "id":1,
             "name": "Responsable de Magasin",
-            "enterprise": "Les Aubaines de la Redoute",
+            "organism": "Les Aubaines de la Redoute",
             "date": "2019-2021",
+            "location": "Rouen",
             "skills": [
                 {
                     "id": 1,
@@ -101,44 +102,74 @@
                 {
                     "id": 3,
                     "text": "tenir la comptabilité du magasin"
-                },
-                {
-                    "id": 4,
-                    "text": "organiser le temps de travail des employés"
-                },
-                {
-                    "id": 5,
-                    "text": "s'assurer de la sécurité et de l'entretien du batiment"
                 }
             ]
         },
         {
             "id":2,
             "name": "Vendeur spécialisé",
-            "enterprise": "Électro Dépot",
-            "date": "2019-2021",
+            "organism": "Électro Dépot",
+            "date": "2021-2022",
+            "location": "Grand-Quevilly",
             "skills": [
                 {
                     "id": 1,
-                    "text": "ouverture/fermeture point de vente"
+                    "text": "vendre des produits techniques"
                 },
                 {
                     "id": 2,
-                    "text": "manager une équipe de six personnes"
+                    "text": "passer des commandes auprès de la centrale d'achats"
                 },
                 {
                     "id": 3,
-                    "text": "tenir la comptabilité du magasin"
+                    "text": "être capable d'achalander son rayon de produits high-tech"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "Développeur Web",
+            "organism": "Fl0jfk",
+            "date": "2023",
+            "location": "Montmain",
+            "skills": [
+                {
+                    "id": 1,
+                    "text": "site web Photodroner76 avec Next.js, Tailwind CSS, TypeScript"
                 },
                 {
-                    "id": 4,
-                    "text": "organiser le temps de travail des employés"
+                    "id": 2,
+                    "text": "site web Calirotis avec Next.js, Tailwind CSS, TypeScript"
                 },
                 {
-                    "id": 5,
-                    "text": "s'assurer de la sécurité et de l'entretien du batiment"
+                    "id": 3,
+                    "text": "site web Karine-Beauté-Zen avec WordPress, Beaver Builder"
                 }
             ]
         }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "name": "Bac Technologique Comptabilité et Finance des Entreprises",
+            "location": "Déville-lès-Rouen",
+            "date": "2010",
+            "organism": "Lycée de la Vallée du Cailly"
+        },
+        {
+            "id": 2,
+            "name": "BTS Négociation et Relation Client",
+            "location": "Barentin",
+            "date": "2012",
+            "organism": "Lycée Thomas Corneille"
+        },
+        {
+            "id": 3,
+            "name": "Certification Professionnelle Développeur Intégrateur Web",
+            "location": "Remote",
+            "date": "2023",
+            "organism": "OpenClassRooms (bac+2)"
+        }
     ]
+
 }

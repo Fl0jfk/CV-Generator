@@ -1,5 +1,4 @@
-import { type } from "os";
-import React, { createContext, useCallback, useContext, useEffect, useState, PropsWithChildren } from "react";
+import { createContext, useCallback, useContext, useEffect, useState, PropsWithChildren } from "react";
 
 type Profile = {
   firstname: string;
@@ -25,24 +24,23 @@ type SoftSkills = {
   name: string;
 };
 
-type Experiences = {
+export type Experiences = {
   id: number;
   name: string;
-  enterprise:string;
+  organism:string;
   date: string;
+  location: string;
   skills: Array<{id:number, text:string}>
 };
 
 type Description = string;
 
-type Testimonial = {
+export type Education = {
   id: number;
-  author: string;
-  job: string;
-  photoAuthor: string;
-  testimonial: string;
-  website: string;
-  linkedin: string;
+  name: string;
+  location: string;
+  date: string;
+  organism: string;
 };
 
 type Languages = {
@@ -57,7 +55,7 @@ type Data = {
   softskills: SoftSkills[];
   description: Description;
   experiences: Experiences[];
-  testimonials: Testimonial[];
+  education: Education[];
   languages: Languages[];
   error: Error | null;
 };
@@ -77,7 +75,7 @@ const initialData: Data = {
   softskills: [],
   description: "",
   experiences: [],
-  testimonials: [],
+  education: [],
   languages: [],
   error: null
 };
