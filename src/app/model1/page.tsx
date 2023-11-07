@@ -13,7 +13,7 @@ import Interests from "./components/Interest";
 function Model1(){
     return (
         <DataProvider>
-            <div className="h-screen w-screen flex w-[1000px] mx-auto">
+            <div className="h-screen w-screen flex w-[1000px] max-w-[1000px] min-w-[1000px] mx-auto">
                 <section id="left" className="w-[45%] h-full p-8 bg-[#d5d6f8] text-[#463a80] flex flex-col justify-stretch">
                     <Profile/>
                     <Skills/>
