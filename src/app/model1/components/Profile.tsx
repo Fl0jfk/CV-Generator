@@ -8,7 +8,7 @@ function Profile (){
     const data = useData();
     const infoProfile = data.profile;
     return (
-        <section className="w-full h-[43%] flex flex-col gap-1">
+        <section className="w-full h-[45%] flex flex-col gap-3">
             <h2 className={`${BS.className} text-3xl`}>{infoProfile.firstname}</h2>
             <h2 className={`${BS.className} text-3xl`}>{infoProfile.lastname}</h2>
             <p className="text-2xl font-light">{infoProfile.profession}</p>

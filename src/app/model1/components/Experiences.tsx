@@ -27,7 +27,7 @@ function Experiences (){
                                 <p>{experience.location}</p>
                         </div>
                         {experience.skills.map((skill : {id:number, text:string}) => (
-                            <p className="text-sm" key={skill.id}>{`- ${skill.text}`}</p>
+                            <p className="font-light" key={skill.id}>{`- ${skill.text}`}</p>
                         ))}
                     </div>
                 ))}

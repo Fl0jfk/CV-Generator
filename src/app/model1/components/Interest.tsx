@@ -13,7 +13,7 @@ function Interests (){
        </div>
        <div className="flex flex-wrap gap-2">
        {data.interests.map((interest : Interest) =>(
-               <div key={interest.id} className="flex flex-col gap-[1px] rounded-lg border p-1 shadow-lg font-light text-[12px]">
+               <div key={interest.id} className="flex flex-col gap-[1px] rounded-lg border p-1 shadow-lg font-light">
                    <p>{interest.name}</p>
                </div>
            ))}
