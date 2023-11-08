@@ -22,4 +22,4 @@ function Interests (){
     )
 }
 
-export default Interests
+export default Interests;
