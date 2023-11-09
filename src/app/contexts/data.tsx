@@ -9,6 +9,7 @@ type Profile = {
   address: string;
   mail: string;
   phoneNumber: string;
+  disponibility:string;
   linkedIn: string;
   github: string;
   website:string;
@@ -18,7 +19,6 @@ type Skill = {
   id: number;
   key: number;
   name: string;
-  svg: string;
   level: number;
 };
 
@@ -75,9 +75,11 @@ const initialData: Data = {
     lastname: "",
     profession: "",
     profilePhoto: "",
+    disponibility:"",
     memoji:"",
     address: "",
     mail: "",
+
     phoneNumber: "",
     linkedIn:"",
     github:"",

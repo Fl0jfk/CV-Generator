@@ -6,6 +6,7 @@
             "profession": "Développeur Front-End",
             "profilePhoto": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/profile/PP+Fl0jfk.webp",
             "memoji": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/profile/Fl0jfk+Memoji.webp",
+            "disponibility": "Disponible immédiatement",
             "address": "152 rue du grand chêne 76520 Montmain",
             "mail": "florian.hacqueville@hotmail.fr",
             "phoneNumber": "06.07.46.08.09",
@@ -17,32 +18,32 @@
         {
             "id":1,
             "name": "HTML 5/ CSS 3",
-            "svg": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/skills/html-5.svg",
             "level": 90
         },
         {
             "id":2,
             "name": "JavaScript",
-            "svg": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/skills/javascript.svg",
             "level": 70  
         },
         {
             "id":3,
             "name": "React.js, native",
-            "svg": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/skills/react-javascript-js-framework-facebook.svg",
             "level": 70  
         },
         {
             "id":4,
             "name": "Next.js",
-            "svg": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/skills/sass.svg",
             "level": 60  
         },
         {
             "id":5,
             "name": "TypeScript",
-            "svg": "https://fl0jfk.s3.eu-west-3.amazonaws.com/assets/skills/sass.svg",
             "level": 50  
+        },
+        {
+            "id":6,
+            "name": "Sass / Tailwind CSS",
+            "level": 80  
         }
     ],
     "softskills" : [
@@ -57,7 +58,7 @@
         {
 
             "id": 3,
-            "name": "Professionalisme"
+            "name": "Professionnalisme"
         }, 
         {
             "id": 4,
@@ -85,7 +86,7 @@
             "level": 40
         }
     ],
-    "description" : "Bonjour, je suis Florian, un passionné de programmation de 30 ans, en voyage pour devenir un développeur front-end junior. Bien que je manque d'expérience professionnelle dans le domaine du développement, je suis un apprenant dévoué.",
+    "description" : "En tant que développeur front-end, j'ai commencé en autodidacte et exploré le développement web à travers des projets personnels et des cours en ligne. Mon parcours m'a amené à suivre une formation chez OpenClassrooms, où j'ai consolidé mes compétences JavaScript et React. Je suis motivé pour continuer à apprendre et à collaborer dans la créativité pour relever de nouveaux défis.",
     "experiences" : [
         {
             "id":1,
@@ -96,36 +97,24 @@
             "skills": [
                 {
                     "id": 1,
-                    "text": "ouverture/fermeture point de vente"
+                    "text": "assurer la gestion globale et la comptabilité d'un point de vente"
                 },
                 {
                     "id": 2,
                     "text": "manager une équipe de six personnes"
-                },
-                {
-                    "id": 3,
-                    "text": "tenir la comptabilité du magasin"
                 }
             ]
         },
         {
             "id":2,
-            "name": "Vendeur spécialisé",
+            "name": "Vendeur spécialisé en produits high-techs",
             "organism": "Électro Dépot",
             "date": "2021-2022",
             "location": "Grand-Quevilly",
             "skills": [
                 {
                     "id": 1,
-                    "text": "vendre des produits techniques"
-                },
-                {
-                    "id": 2,
-                    "text": "passer des commandes auprès de la centrale d'achats"
-                },
-                {
-                    "id": 3,
-                    "text": "être capable d'achalander son rayon de produits high-tech"
+                    "text": "vendre des produits techniques, passer des commandes, achalander mon rayon"
                 }
             ]
         },
@@ -138,15 +127,15 @@
             "skills": [
                 {
                     "id": 1,
-                    "text": "site web Photodroner76 avec Next.js, Tailwind CSS, TypeScript"
+                    "text": "création du site web Photodroner76 avec Next.js, Tailwind CSS, TypeScript"
                 },
                 {
                     "id": 2,
-                    "text": "site web Calirotis avec Next.js, Tailwind CSS, TypeScript"
+                    "text": "création du site web Calirotis avec Next.js, Tailwind CSS, TypeScript"
                 },
                 {
                     "id": 3,
-                    "text": "site web Karine-Beauté-Zen avec WordPress, Beaver Builder"
+                    "text": "création du site web Karine-Beauté-Zen avec WordPress, Beaver Builder"
                 }
             ]
         }

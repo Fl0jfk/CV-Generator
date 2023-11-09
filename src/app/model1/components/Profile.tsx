@@ -12,9 +12,10 @@ function Profile (){
         <section className="w-full h-[45%] flex flex-col gap-2">
             <h2 className={`${BS.className} text-3xl`}>{infoProfile.firstname}</h2>
             <h2 className={`${BS.className} text-3xl`}>{infoProfile.lastname}</h2>
-            <p className="text-2xl font-light">{infoProfile.profession}</p>
+            <p className="text-2xl">{infoProfile.profession}</p>
            {infoProfile.memoji&&<Image src={infoProfile.memoji} width={150} height={100} alt="Photo de profil" className="rounded-full"/>}
-            <div className="flex gap-2 items-center mt-[-30px]">
+           <p className="mt-[-30px] font-light">{infoProfile.disponibility}</p>
+            <div className="flex gap-2 items-center">
                 <svg version="1.0" id="Layer_1" width="18px" height="18px" viewBox="0 0 64 64" enableBackground="new 0 0 64 64" xmlSpace="preserve">
                     <path fill="#463a80" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24	C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"/>
                 </svg>
