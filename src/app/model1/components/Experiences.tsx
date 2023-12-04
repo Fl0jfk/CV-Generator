@@ -4,7 +4,7 @@ import { Experiences } from "@/app/contexts/data";
 function Experiences (){
     const data = useData();
     return (
-        <section className="flex flex-col w-full h-[40%]">
+        <section className="flex flex-col w-full h-[46%]">
             <div className="flex items-center gap-4">
                 <svg width="40px" height="40px" viewBox="0 0 512 512" version="1.1">
                     <g id="Page-1" stroke="none" fill="none" fillRule="evenodd">
